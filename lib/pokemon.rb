@@ -16,6 +16,7 @@ class Pokemon
     new_pokemon.name=pokemon[1]
     new_pokemon.type=pokemon[2]
     new_pokemon.id=db
+    new_pokemon
   end
 
 end
