@@ -15,7 +15,7 @@ class Pokemon
     new_pokemon.id=pokemon[0]
     new_pokemon.name=pokemon[1]
     new_pokemon.type=pokemon[2]
-    new_pokemon.id=db
+    new_pokemon.db=db
     new_pokemon
     binding.pry
   end
