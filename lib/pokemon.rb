@@ -7,4 +7,8 @@ class Pokemon
     # @db = :db
   end
 
+  def self.save
+
+  end
+
 end
