@@ -17,7 +17,6 @@ class Pokemon
     new_pokemon.type=pokemon[2]
     new_pokemon.id=db
     new_pokemon
-    pokemon
   end
 
 end
