@@ -12,6 +12,7 @@ class Pokemon
     pokemon = db.execute("SELECT id, name, type FROM pokemon WHERE id = ?", id).flatten
     new_pokemon=Pokemon.new(pokemon)
     new_pokemon.save
+    new_pokemon
   end
 
 end
