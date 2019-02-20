@@ -17,7 +17,7 @@ class Pokemon
     new_pokemon.type=pokemon[2]
     new_pokemon.db=db
     new_pokemon
-    binding.pry
+
   end
 
 end
